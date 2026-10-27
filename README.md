@@ -11,25 +11,25 @@ Espero que gostem!
 
 Para instalar as dependências do app:
 ```
-    npm install
+npm install
 ``` 
 
 Como é um site estático, precisamos sempre antes de testar, fazer o build do app:
 ```
-    npm run build
+npm run build
 ``` 
 
 Para visualizar o app:
 ```
-    npm run preview
+npm run preview
 ``` 
 
 Para publicar o app e vê-lo no browser diretamente do seu gateway local do ipfs:
 ```
-    ipfs add -r ./build
+ipfs add -r ./build
 ```
 
 No browser:
 ```
-    localhost:8080/ipfs/<CID obtido no comando anterior>
+localhost:8080/ipfs/<CID obtido no comando anterior>
 ```
