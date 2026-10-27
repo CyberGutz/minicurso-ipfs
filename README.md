@@ -1,6 +1,10 @@
 # Helia Drive
 
-Pequena demonstração de um app de armazenamento em nuvem usado no minicurso de introdução ao IPFS com Helia, na XV jornada de educação, ciência e tecnologia do IFMG Campus Formiga. Espero que gostem!
+Pequena demonstração de um app de armazenamento em nuvem usado no minicurso de introdução ao IPFS com Helia, na XV jornada de educação, ciência e tecnologia do IFMG Campus Formiga. 
+
+Stack utilizada: Sveltekit com adapter-static, Helia (antigo ipfs.js) e tailwindcss.
+
+Espero que gostem!
 
 
 ## Comandos úteis
