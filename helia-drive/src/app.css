@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f1f5f3;
+  --color-ink: #10282b;
+  --color-ink-soft: #55696c;
+  --color-line: #d8e1de;
+  --color-node: #0c8a86;
+  --color-node-deep: #075f5c;
+}
+
+@layer base {
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-node;
+  }
+}
